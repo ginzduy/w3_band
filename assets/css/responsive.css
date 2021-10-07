@@ -1,0 +1,53 @@
+/* Responsible */
+/* pc  */
+@media (min-width: 1024px) {
+
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    
+}
+/* mobile  */
+@media (max-width: 740px) {
+    #header {
+        overflow: hidden;
+     }
+    #nav {
+        display: block;
+    }
+    #nav div {
+        display: block;
+    }
+    #nav > div:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 8px 40px;
+        background-color: #666;
+    }
+    #header .menu-mobile {
+        display: block;
+    }
+    #header .search-button {
+        display: none;
+    }
+    #content .mobi-full-list {
+        width: 100%;
+    }
+    #content .member-img {
+        width: 60%;
+        margin-bottom: 16px;
+    }
+    .contact-right {
+        margin-bottom: 16px;
+    }
+    .contact-left .columns {
+        padding: 0 ;
+    }
+
+
+}
