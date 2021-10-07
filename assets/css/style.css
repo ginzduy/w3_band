@@ -183,7 +183,7 @@ mobile
 #slider .text-description {
     margin: 15px;
     font-size: 15px;
-    
+    text-shadow: 0 0 2px black;
 }
 
 
